@@ -1,0 +1,9 @@
+<h1>Listing all slides</h1>
+
+<%= for slide <- @slides do %>
+<div id={slide.id} style="margin-bottom: 3rem;">
+    <h2>
+      <%= slide.id%>: <%= link slide.title, to: Routes.slide_show_path(@conn, :show, slide)%>
+    </h2>
+  </div>
+<% end %>

@@ -1,0 +1,5 @@
+<%= link "← All slides", to: Routes.slide_show_path(@conn, :index)%>
+
+<h1><%= @slide.title %></h1>
+
+<%= raw @slide.body %>
