@@ -1,5 +1,10 @@
+<section class="row">
+  <div class="column">
 <%= link "← All slides", to: Routes.slide_show_path(@conn, :index)%>
-
-<h1><%= @slide.title %></h1>
+  </div>
+  <div class="column">
+<%= link "Next", to: Routes.slide_show_path(@conn, :show, @slide.id + 1), class: "float-right" %>
+  </div>
+</section>
 
 <%= raw @slide.body %>

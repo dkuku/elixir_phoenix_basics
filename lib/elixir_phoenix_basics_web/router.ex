@@ -12,6 +12,7 @@ defmodule ElixirPhoenixBasicsWeb.Router do
 
   pipeline :api do
     plug :accepts, ["json"]
+    get "/conn", ElixirPhoenixBasicsWeb.SlideShowController, :show_conn
   end
 
   scope "/", ElixirPhoenixBasicsWeb do

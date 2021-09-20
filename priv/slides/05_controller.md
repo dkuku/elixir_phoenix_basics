@@ -1,3 +1,6 @@
+# controller
+
+```elixir
 defmodule ElixirPhoenixBasicsWeb.SlideShowController do
   use ElixirPhoenixBasicsWeb, :controller
 
@@ -14,8 +17,7 @@ defmodule ElixirPhoenixBasicsWeb.SlideShowController do
       {:error, type} -> render(conn, "404.html", id: id)
     end
   end
-
-  def show_conn(conn, params) do
-      render(conn, "show.json", conn: conn)
-  end
 end
+
+```
+

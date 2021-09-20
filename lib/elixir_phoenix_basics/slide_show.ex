@@ -10,7 +10,10 @@ defmodule ElixirPhoenixBasics.SlideShow do
     parser: SlideParser
 
   @slides Enum.sort_by(@slides, & &1.id)
-  def all_slides, do: @slides |> IO.inspect()
+  def all_slides, do: @slides
+  def get_slide_by_id(id) when is_binary(id) do
+    get_slide_by_id(String.to_integer(id))
+  end
   def get_slide_by_id(id) do
     slide =
     all_slides()

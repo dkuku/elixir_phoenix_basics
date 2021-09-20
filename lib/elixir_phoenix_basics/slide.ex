@@ -13,6 +13,6 @@ defmodule ElixirPhoenixBasics.SlideShow.Slide do
       |> Enum.take(-1) 
       |> hd()
       |> String.split("_", parts: 2)
-    struct!(__MODULE__, [id: id, title: String.replace(title, "_", " "), body: body] ++ Map.to_list(attrs))
+    struct!(__MODULE__, [id: String.to_integer(id), title: String.replace(title, "_", " "), body: body] ++ Map.to_list(attrs))
   end
 end

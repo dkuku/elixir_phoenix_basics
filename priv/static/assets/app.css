@@ -656,6 +656,260 @@ header nav a {
   }
 }
 
+/* css/makeup.css */
+.makeup .hll {
+  background-color: #ffffcc;
+}
+.makeup {
+  background-color: #ffffff;
+}
+.makeup .unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.makeup .bp {
+  color: #007020;
+}
+.makeup .c {
+  color: #888;
+}
+.makeup .c1 {
+  color: #888;
+}
+.makeup .ch {
+  color: #888;
+}
+.makeup .cm {
+  color: #888;
+}
+.makeup .cp {
+  color: #579;
+}
+.makeup .cpf {
+  color: #579;
+}
+.makeup .cs {
+  color: #cc0000;
+  font-weight: bold;
+}
+.makeup .dl {
+  background-color: #fff0f0;
+}
+.makeup .err {
+  color: #F00;
+  background-color: #FAA;
+}
+.makeup .fm {
+  color: #06B;
+  font-weight: bold;
+}
+.makeup .gd {
+  color: #A00000;
+}
+\2502.makeup .ge {
+  font-style: italic;
+}
+.makeup .gh {
+  color: #000080;
+  font-weight: bold;
+}
+.makeup .gi {
+  color: #00A000;
+}
+.makeup .go {
+  color: #888;
+}
+.makeup .gp {
+  color: #c65d09;
+  font-weight: bold;
+}
+.makeup .gr {
+  color: #FF0000;
+}
+.makeup .gs {
+  font-weight: bold;
+}
+.makeup .gt {
+  color: #04D;
+}
+.makeup .gu {
+  color: #800080;
+  font-weight: bold;
+}
+.makeup .il {
+  color: #00D;
+  font-weight: bold;
+}
+.makeup .k {
+  color: #080;
+  font-weight: bold;
+}
+.makeup .kc {
+  color: #080;
+  font-weight: bold;
+}
+.makeup .kd {
+  color: #080;
+  font-weight: bold;
+}
+.makeup .kn {
+  color: #080;
+  font-weight: bold;
+}
+.makeup .kp {
+  color: #038;
+  font-weight: bold;
+}
+.makeup .kr {
+  color: #080;
+  font-weight: bold;
+}
+.makeup .kt {
+  color: #339;
+  font-weight: bold;
+}
+.makeup .m {
+  color: #60E;
+  font-weight: bold;
+}
+.makeup .mb {
+  color: #60E;
+  font-weight: bold;
+}
+.makeup .mf {
+  color: #60E;
+  font-weight: bold;
+}
+.makeup .mh {
+  color: #058;
+  font-weight: bold;
+}
+.makeup .mi {
+  color: #00D;
+  font-weight: bold;
+}
+.makeup .mo {
+  color: #40E;
+  font-weight: bold;
+}
+.makeup .na {
+  color: #00C;
+}
+.makeup .nb {
+  color: #007020;
+}
+.makeup .nc {
+  color: #B06;
+  font-weight: bold;
+}
+.makeup .nd {
+  color: #555;
+  font-weight: bold;
+}
+.makeup .ne {
+  color: #F00;
+  font-weight: bold;
+}
+.makeup .nf {
+  color: #06B;
+  font-weight: bold;
+}
+.makeup .ni {
+  color: #800;
+  font-weight: bold;
+}
+.makeup .nl {
+  color: #970;
+  font-weight: bold;
+}
+.makeup .nn {
+  color: #0e84b5;
+  font-weight: bold;
+}
+.makeup .no {
+  color: #036;
+  font-weight: bold;
+}
+.makeup .nt {
+  color: #070;
+}
+.makeup .nv {
+  color: #963;
+}
+.makeup .o {
+  color: #333;
+}
+.makeup .ow {
+  color: #000;
+  font-weight: bold;
+}
+.makeup .s {
+  background-color: #fff0f0;
+}
+.makeup .s1 {
+  background-color: #fff0f0;
+}
+.makeup .s2 {
+  background-color: #fff0f0;
+}
+.makeup .sa {
+  background-color: #fff0f0;
+}
+.makeup .sb {
+  background-color: #fff0f0;
+}
+.makeup .sc {
+  color: #04D;
+  background-color:;
+}
+.makeup .sd {
+  color: #D42;
+  background-color:;
+}
+.makeup .se {
+  color: #666;
+  font-weight: bold;
+  background-color: #fff0f0;
+}
+.makeup .sh {
+  background-color: #fff0f0;
+}
+.makeup .si {
+  background-color: #eee;
+}
+.makeup .sr {
+  color: #000;
+  background-color: #fff0ff;
+}
+.makeup .ss {
+  color: #A60;
+  background-color:;
+}
+.makeup .sx {
+  background-color: #fff0f0;
+}
+.makeup .sx {
+  color: #D20;
+  background-color: #fff0f0;
+}
+.makeup .vc {
+  color: #369;
+}
+.makeup .vg {
+  color: #d70;
+  font-weight: bold;
+}
+.makeup .vi {
+  color: #33B;
+}
+.makeup .vm {
+  color: #963;
+}
+
 /* css/app.css */
 .alert {
   padding: 15px;
